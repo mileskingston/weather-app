@@ -1,0 +1,14 @@
+@import './_variables.scss';
+@import './_mixins.scss';
+
+.forecast {
+  flex: 1;
+  padding: $spacing;
+  border: $border;
+}
+
+@include mediaQuery($mobile, max) {
+  .forecast {
+    flex-basis: 100%;
+  }
+}

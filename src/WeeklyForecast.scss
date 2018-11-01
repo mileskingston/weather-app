@@ -1,0 +1,12 @@
+@import './_variables.scss';
+@import './_mixins.scss';
+
+.weekly-forecast {
+  display: flex;
+}
+
+@include mediaQuery($mobile, max) {
+  .weekly-forecast {
+    flex-wrap: wrap;
+  }
+}

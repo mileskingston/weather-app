@@ -1,0 +1,9 @@
+@mixin mediaQuery($width, $condition: min) {
+  @if ($condition == min) {
+    $width: #{$width + 1}
+  }
+
+  @media only screen and (#{$condition}-width: $width) {
+    @content;
+  }
+}

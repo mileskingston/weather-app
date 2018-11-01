@@ -1,0 +1,21 @@
+// Colors
+$grey-mid: #ccc !default;
+$grey-dark: #666 !default;
+
+$text-color: $grey-dark;
+
+// Fonts
+$font-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+sans-serif !default;
+$font-code: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace !default;
+
+// Borders
+$border: 1px solid $grey-mid;
+
+// Spacing
+$spacing: 10px !default;
+
+// Breakpoints
+$desktop: 1024px !default;
+$mobile: 768px !default;
